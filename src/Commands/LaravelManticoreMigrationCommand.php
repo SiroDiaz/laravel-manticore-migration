@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace SiroDiaz\LaravelManticoreMigration\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelManticoreMigrationCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-manticore-migration';
 
     public $description = 'My command';
 
