@@ -2,9 +2,9 @@
 
 namespace SiroDiaz\LaravelManticoreMigration;
 
+use SiroDiaz\LaravelManticoreMigration\Commands\LaravelManticoreMigrationCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SiroDiaz\LaravelManticoreMigration\Commands\LaravelManticoreMigrationCommand;
 
 class LaravelManticoreMigrationServiceProvider extends PackageServiceProvider
 {
